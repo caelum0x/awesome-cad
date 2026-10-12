@@ -66,6 +66,21 @@ Professional-grade 2D drafting software with a long development history.
 -   Clean UI and stable core
 -   Widely used in industry
 
+#### CADCraft
+
+<https://github.com/storytold/cadcraft>
+
+An open-source **clean-room reimplementation of Autodesk AutoCAD** in pure Rust, bringing the classic command-line drafting workflow to modern cross-platform native apps.
+
+**Key Features**
+
+-   AutoCAD-style command line, object snaps, layers, dimensions, hatches, and blocks
+-   Native DXF (R12–2018, ASCII & binary) and DWG read/write
+-   Parametric geometric and dimensional constraints with conflict detection
+-   Paper-space layouts, viewports, and PDF / SVG / PNG export
+-   Cross-platform desktop (macOS, Windows, Linux, FreeBSD) and web (WebAssembly)
+-   Agent-friendly: MCP server, JSON control channel, and CLI for automation
+
 ### Web-Based 2D CAD
 
 #### cad-viewer
@@ -179,6 +194,21 @@ A lightweight **constraint-based parametric 2D/3D CAD system** focused on precis
 -   Very small, fast, and deterministic
 -   Popular for mechanical sketches, linkages, and educational use
 -   Fully open-source and self-contained
+
+#### OpenCAD Studio
+
+<https://github.com/HakanSeven12/OpenCADStudio>
+
+An open-source **2D drafting and 3D modeling** application built in Rust, with native DWG/DXF support across desktop and web.
+
+**Key Features**
+
+-   Native DWG/DXF read/write (R14 through 2018)
+-   2D drafting: lines, polylines, splines, hatches, snaps, layers, blocks, dimensions
+-   Kernel-backed 3D modeling: extrude, revolve, sweep, loft, Boolean operations
+-   GPU-accelerated rendering via wgpu
+-   Cross-platform desktop (Windows, Linux, macOS) and web (WebAssembly)
+-   Plugin system, headless automation, and MCP endpoint for AI agents
 
 ### Web-Based 3D CAD
 

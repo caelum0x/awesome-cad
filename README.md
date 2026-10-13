@@ -589,6 +589,21 @@ A functional CAD kernel based on implicit geometry (SDF).
 -   Functional modeling paradigm
 -   Excellent for generative CAD
 
+#### USD BRep
+
+<https://github.com/NVIDIA-Omniverse/usd-brep>
+
+A standalone **NURBS-based boundary representation (B-Rep) solid modeling library** from NVIDIA Omniverse, with C++ and Python APIs and native OpenUSD integration.
+
+**Key Features**
+
+-   NURBS-based B-Rep solid modeling kernel
+-   C++ and Python APIs, including Boolean operations
+-   OpenUSD schema plugin (omniSolid) for precise B-Rep geometry in USD scenes
+-   SMLib-to-USD mesh authoring workflow and B-Rep asset healing tools
+-   Interactive Python GUI for exploration
+-   Cross-platform (Windows, Linux, macOS)
+
 ### Constraint Solvers
 
 #### KittyCAD / ezpz

@@ -210,22 +210,6 @@ An open-source **2D drafting and 3D modeling** application built in Rust, with n
 -   Cross-platform desktop (Windows, Linux, macOS) and web (WebAssembly)
 -   Plugin system, headless automation, and MCP endpoint for AI agents
 
-#### SolidCraft
-
-<https://github.com/bherbruck/solidcraft>
-
-An open-source **parametric 3D CAD application** built in pure Rust, with desktop, web, and AI-agent automation via MCP.
-
-**Key Features**
-
--   Parametric feature timeline: extrude, revolve, sweep, loft, fillet/chamfer, shell, draft, holes, threads, patterns, mirror, split, combine
--   Constraint-based sketches with an in-house solver (loci intersections, rigid-cluster decomposition, Levenberg–Marquardt)
--   Assemblies with nested components, joints, motion studies, contact sets, and material-aware mass properties
--   Sheet metal: flanges, hems, fold/unfold/refold, flat patterns, bend tables, DXF outlines
--   Cross-platform desktop (Windows, macOS, Linux) and browser (WebAssembly/WebGPU)
--   `solidcraft-cli mcp` MCP server: AI agents model, measure, screenshot, and export headless or in the running app
--   STEP (AP242), IGES, 3MF, STL, OBJ export; STEP/IGES/3MF/STL import as base features; URDF export for robot simulators
-
 ### Web-Based 3D CAD
 
 #### jsketcher
@@ -286,6 +270,20 @@ A JavaScript-based CAD system for **scriptable solid modeling** in the browser a
 -   CSG-based modeling
 -   STL / AMF / 3MF export
 -   Popular in maker and web CAD communities
+
+#### replicad
+
+<https://github.com/sgenoud/replicad>
+
+A JavaScript library for **browser-native, code-driven 3D CAD modeling** built on OpenCascade.
+
+**Key Features**
+
+-   OpenCascade abstraction — full B-Rep modeling power in the browser
+-   CadQuery-inspired streamlined API: sketch → shape → modify workflow
+-   Browser-native execution with no server dependency
+-   STEP export, fillets, chamfers, and other industrial-grade kernel features
+-   Modern JavaScript ecosystem, integrates with existing web tooling
 
 #### Manifold
 

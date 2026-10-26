@@ -23,6 +23,8 @@ Inspired by the *awesome-list* philosophy.
 
 - [📐 DXF / DWG Parsers & Libraries](#-dxf--dwg-parsers--libraries)
 
+- [🔄 CAD File Converters & Interoperability](#-cad-file-converters--interoperability)
+
 - [🧰 CAD Libraries & Kernels](#-cad-libraries--kernels)
   - [Geometry & Modeling Kernels](#geometry--modeling-kernels)
   - [Constraint Solvers](#constraint-solvers)
@@ -532,6 +534,25 @@ A tool for **converting DXF files to JSON format** for easier processing in web 
 -   Converts DXF to structured JSON
 -   Browser and Node.js friendly
 -   Lightweight and easy to integrate
+
+## 🔄 CAD File Converters & Interoperability
+
+Tools focused on **converting and exchanging data between CAD file formats** — especially translating proprietary native formats (SolidWorks, CATIA, NX, Creo, Inventor) into neutral interchange formats like STEP.
+
+#### cadmpeg
+
+<https://github.com/cadmpeg/cadmpeg>
+
+A command-line tool for **inspecting and converting native CAD files**, built in Rust with a clean-room approach — an open-source alternative to proprietary vendor translation SDKs.
+
+**Key Features**
+
+-   Broad native format support: SolidWorks `.sldprt`, Inventor `.ipt`/`.iam`, Fusion 360 `.f3d`, CATIA V5 `.CATPart`, NX / Creo `.prt`, Rhino `.3dm`, ASM/ACIS `.sat`/`.smt`, FreeCAD `.FCStd`
+-   Convert native CAD files to STEP (and inspect, measure, and diff geometry between files)
+-   Clean-room decoders — format knowledge from public documentation and legally possessed files, no vendor SDKs
+-   Per-format support-level ladder with documented byte-level format profiles
+-   Rust workspace with reusable crates for embedding native CAD import into applications
+-   Apache 2.0 (code), CC BY 4.0 (docs), cross-platform install (Homebrew, installer scripts, cargo)
 
 ## 🧰 CAD Libraries & Kernels
 
